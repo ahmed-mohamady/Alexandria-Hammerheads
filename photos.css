@@ -1,0 +1,97 @@
+.poo {
+  width: 100%;
+  height: 1200px;
+  display: flex;
+}
+
+.leff {
+  width: 70%;
+}
+
+.leff .headess {
+  width: 100%;
+  height: 50px;
+}
+
+.leff .headess p {
+  color: #002550;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+.leff .colm {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.leff .colm .saf {
+  width: 30%;
+  text-align: center;
+  position: relative;
+}
+
+.leff .colm .saf a {
+  width: 100%;
+  height: 100%;
+}
+
+.leff .colm .saf p {
+  color: #002550;
+}
+
+.colm:nth-child(4) {
+  margin-top: 70px;
+}
+
+.r1 a:hover .blacks {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.r1 a:hover h6 {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.r1 .blacks {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-out;
+}
+
+.r1 .blacks h6 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 20px;
+  font-weight: normal;
+  font-family: robo;
+}
+
+.r1 .rr1 {
+  background-image: url("pics/1.JPG");
+  background-size: cover;
+}
+
+.r1 .rr2 {
+  background-image: url("pics/2.JPG");
+  background-size: cover;
+}
+
+.r1 .rr3 {
+  background-image: url("pics/3.JPG");
+  background-size: cover;
+}
+
+.righh {
+  width: 30%;
+  height: 100%;
+}

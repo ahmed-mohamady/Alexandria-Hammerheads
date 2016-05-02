@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="utf-8")
+    title Alexandria HammerHeads
+    meta(name="description", content="")
+    meta(name="author", content="Ali Mohamady")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="main.css")
+    link(rel="stylesheet", href="acctmanag.css")
+    //link(rel="icon", type="image/png", href="images/favicon.png")
+
+  body  
+    .acct
+      .photolog
+      .headph
+        p Alexandria Hammerheads Members Account
+      hr
+      .reweite
+        h6 Manage your account Here ! 
+        p.red Make sure you abide by the instructions of the manager. This account is for personal use only. Not committing to the instruction may lead to deactivating your account.On deactivating your account an Email will forwarded to your Email, explaining the reason for deactivation.
+        p.black.dw Manage your Hammerheads account easily and quickly !
+        li check your data
+        li check your onfield Notes 
+        li check your attendence and fees 
+        p.extra For More information please Contact US
+        p.black Please Note: 
+        p.line Your account number is your Account ID and the password (PIN) is delivered face to face on field to the members 
+        p.line this accounts is for use by Hammerheads Members only
+      .login
+        .blues
+          p Members Account login.
+          form(action='', method='post')
+            .ccc
+              label Account ID :
+              input#name(name='username', placeholder=' ID', type='text')
+              br
+              label Password &nbsp; :
+              input#password(name='password', placeholder=' *********', type='password')
+              br
+              input#enter(name='submit', type='submit', value=' Login ')
+              span
+          li.p.fin If you don't have an account ID and password, contact the Alexandria  Hammerheads office.
+    script(src="jquery-2.1.3.min.js")
+    script(src="jquery.cycle2.min.js")
+    //script(src="functions.js")
